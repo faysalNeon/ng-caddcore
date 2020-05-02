@@ -1,0 +1,36 @@
+:host{
+  height: 100vh;
+  display: block;
+  .content {
+    margin: 0 auto;
+    max-width: 700px;
+    text-align: center;
+    h3 {
+      font-size: 35px;
+      font-weight: 700;
+      margin-top: 30px;
+      margin-bottom: 18px;
+    }
+    p {
+      max-width: 520px;
+      margin: 0 auto 20px;
+      line-height: 30px;
+    }
+    .default-btn-one {
+      display: inline-block;
+      padding: 12px 30px;
+      background: #fe103c;
+      border: 1px solid #fe103c;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 400;
+      -webkit-transition: .6s;
+      transition: .6s;
+      &:hover {
+        text-decoration: none;
+        background-color: #ffffff;
+        color: #fe103c;
+      }
+    }
+  }
+}
